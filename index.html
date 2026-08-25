@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Phone Htet Paing — Software Engineering Student Portfolio">
+  <title>Phone Htet Paing | Software Engineering Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#home">Phone Htet Paing<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-button">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">SOFTWARE ENGINEERING STUDENT</p>
+          <h1>Hi, I'm <span>Phone Htet Paing.</span></h1>
+          <p class="hero-text">
+            Second-year Software Engineering student interested in software development,
+            networking, databases and emerging technologies.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work <span>↗</span></a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+          <div class="quick-info">
+            <span>📍 Bandar Sunway, Selangor</span>
+            <span>🎓 Sunway University</span>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap reveal"> 
+          <div class="profile-placeholder">
+            <img src="Imgaes/profile_photo.PNG" alt="Phone Htet Paing">
+          </div>
+          <div class="floating-card">
+            <strong>2025 — Present</strong>
+            <span>Bachelor of Software Engineering</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Learning, building & growing.</h2>
+        </div>
+        <div class="about-content reveal">
+          <p>
+            I am a second-year Software Engineering student who enjoys exploring
+            technologies and challenges in areas such as network security and
+            software development.
+          </p>
+          <p>
+            I am eager to step into a professional environment where I can work hard,
+            support the team and continuously develop my skills.
+          </p>
+          <div class="about-stats">
+            <div><strong>2nd</strong><span>Year Student</span></div>
+            <div><strong>2025+</strong><span>University Journey</span></div>
+            <div><strong>∞</strong><span>Learning Mindset</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">MY SKILLS</p>
+          <h2>Tools & technologies I'm developing.</h2>
+          <p>My current skill set is growing through university work, projects and self-learning.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-number">01</div>
+            <h3>Programming</h3>
+            <div class="tags">
+              <span>Python</span><span>Java</span><span>OOP</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-number">02</div>
+            <h3>Software Development</h3>
+            <div class="tags">
+              <span>Web Development</span><span>SDLC</span><span>UML</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-number">03</div>
+            <h3>Technical Skills</h3>
+            <div class="tags">
+              <span>Database Management</span><span>Networking</span><span>Task Management</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SELECTED PROJECTS</p>
+          <h2>Things I've worked on.</h2>
+          <p>These project cards are based on the projects listed in my CV. You can expand each project later with screenshots, GitHub links and case studies.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image placeholder-image">
+              <span>Flight Booking System</span>
+            </div>
+            <div class="project-body">
+              <p class="project-type">UNIVERSITY PROJECT</p>
+              <h3>Flight Booking System</h3>
+              <p>Designed UML diagrams following SDLC methodologies and analysed system requirements.</p>
+              <div class="project-tags"><span>UML</span><span>SDLC</span><span>Requirements</span></div>
+              <button class="text-link project-btn" data-project="flight">View Details ↗</button>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image placeholder-image">
+              <span>Local Area Network (LAN) Design</span>
+            </div>
+            <div class="project-body">
+              <p class="project-type">NETWORKING PROJECT</p>
+              <h3>Local Area Network (LAN) Design</h3>
+              <p>Designed and configured a local area network topology as a university group assignment.</p>
+              <div class="project-tags"><span>Networking</span><span>LAN</span><span>Topology</span></div>
+              <button class="text-link project-btn" data-project="lan">View Details ↗</button>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image placeholder-image">
+              <img src="Imgaes/commingsoon.png" alt="Comming soon photo">
+            </div>
+            <div class="project-body">
+              <p class="project-type">COMING SOON</p>
+              <h3>Comming Soon</h3>
+              <div class="project-tags"><span>In Progress</span></div>
+              <button class="text-link" onclick="document.querySelector('#contact').scrollIntoView({behavior:'smooth'})">Coming Soon ↗</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">EXPERIENCE</p>
+          <h2>Experience & involvement.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">CURRENT</p>
+              <h3>Volunteer HR Team Member</h3>
+              <h4>RiseUp Organization</h4>
+              <ul>
+                <li>Maintain up-to-date records and databases for volunteers.</li>
+                <li>Support volunteer application processes.</li>
+                <li>Engage in internal activities designed to keep volunteers motivated and satisfied.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">EDUCATION</p>
+          <h2>My academic journey.</h2>
+        </div>
+
+        <div class="education-list">
+          <article class="education-item reveal">
+            <div class="edu-year">2025 — Present</div>
+            <div>
+              <h3>Bachelor of Software Engineering</h3>
+              <p>Sunway University</p>
+            </div>
+          </article>
+          <article class="education-item reveal">
+            <div class="edu-year">2023 — 2024</div>
+            <div>
+              <h3>Ontario Secondary School Diploma</h3>
+              <p>IGCSE GIC</p>
+            </div>
+          </article>
+          <article class="education-item reveal">
+            <div class="edu-year">2022 — 2023</div>
+            <div>
+              <h3>IGCSE O Level</h3>
+              <p>IGCSE GIC</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="achievement reveal">
+          <div class="achievement-icon">★</div>
+          <div>
+            <p class="eyebrow">ACHIEVEMENTS</p>
+            <h3>Dean's List Award</h3>
+            <p>Sunway University — April 2025 semester</p>
+            <h3 class="achievement-second">CCNA: Introduction to Networks</h3>
+            <p>Cisco Networking Academy — 2026</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box reveal">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Let's connect.</h2>
+          <p>I'm open to learning opportunities, collaborations and professional connections.</p>
+        </div>
+        <div class="contact-details">
+          <a href="mailto:phonehtetpaing51@gmail.com">phonehtetpaing51@gmail.com</a>
+          <a href="tel:+60194645607">+60 19-464 5607</a>
+          <p>Bandar Sunway, Selangor, Malaysia</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Phone Htet Paing. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <p class="eyebrow" id="modalType"></p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalText"></p>
+      <div class="project-tags" id="modalTags"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
